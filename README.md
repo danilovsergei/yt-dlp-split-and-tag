@@ -13,12 +13,11 @@ Requires yt-dlp `2023.01.01` or above.
 
 You can install this package with pip:
 
-// TODO replace installation link
 ```
-python3 -m pip install -U https://github.com/pukkandan/yt-dlp-ReturnYoutubeDislike/archive/master.zip
+python3 -m pip install -U https://github.com/danilovsergei/yt-dlp-split-and-tag/releases/download/master/yt-dlp-split-and-tag.zip
 ```
 
-See [yt-dlp installing plugins](https://github.com/yt-dlp/yt-dlp#installing-plugins) for the many other ways this plugin package can be installed.
+Or either copy to the relevant directory manually by following [yt-dlp installing plugins](https://github.com/yt-dlp/yt-dlp#installing-plugins)
 
 ## Usage
 
