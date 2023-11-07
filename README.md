@@ -1,4 +1,4 @@
-A [yt-dlp](https://github.com/yt-dlp/yt-dlp) postprocessor [plugin](https://github.com/yt-dlp/yt-dlp#plugins) for splitting videos by chapter and set metadata.\
+A [yt-dlp](https://github.com/yt-dlp/yt-dlp) postprocessor [plugin](https://github.com/yt-dlp/yt-dlp#plugins) for splitting videos by chapter and set metadata based on chapter title.\
 It designed as more feature rich replacement for yt-dlp --split-chapters option
 
 ## Features
