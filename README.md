@@ -3,8 +3,9 @@ It designed as more feature rich replacement for yt-dlp --split-chapters option
 
 ## Features
 * Strips chapters information from split files. Default --split-chapters adds all chapters metadata to each split file. See [bug/8363](https://github.com/yt-dlp/yt-dlp/issues/8363). Audio playes load split files incorrectly 
-* Allows to extract artist , title , album from chapter title using regex. Default --split-chapters writes the same title/artist to each split file
-* Provides conveninent --regex parameter to yt-dlp to perform chapter title parsing
+* Allows to extract artist , title , album from chapter title using regex. Default --split-chapters writes the same title/artist to each split file. [Usage example](https://github.com/danilovsergei/yt-dlp-split-and-tag#only-print-information-how-chapter-title-will-be-split)
+* Provides conveninent --regex parameter to yt-dlp to perform chapter title parsing.\
+This option also auto populates yt-dlp --use-postprocessor arguments. So no need to specify SplitAndTag directly
 
 ## Installation
 
