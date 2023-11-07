@@ -1,10 +1,5 @@
-A [yt-dlp](https://github.com/yt-dlp/yt-dlp) postprocessor [plugin](https://github.com/yt-dlp/yt-dlp#plugins) for splitting youtube videos 
-by chapter and set metadata.
-It designed to be used instead of yt-dlp built in FFmpegSplitChaptersPP post processor.
-There is a bug in ffmpeg splitting m4a files by chapter. Ffmpeg writes full chapters list in each split file.
-And it confuses players.
-
-SplitAndTag instead writes only information about the track to split files.
+A [yt-dlp](https://github.com/yt-dlp/yt-dlp) postprocessor [plugin](https://github.com/yt-dlp/yt-dlp#plugins) for splitting videos by chapter and set metadata.\
+It designed as more feature rich replacement for yt-dlp --split-chapters option
 
 ## Features
 * Strips chapters information from split files. Default --split-chapters adds all chapters metadata to each split file. See [bug/8363](https://github.com/yt-dlp/yt-dlp/issues/8363). Audio playes load split files incorrectly 
