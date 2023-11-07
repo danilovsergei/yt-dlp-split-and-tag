@@ -23,6 +23,8 @@ python3 -m pip install -U https://github.com/danilovsergei/yt-dlp-split-and-tag/
 
 Or either copy to the relevant directory manually by following [yt-dlp installing plugins](https://github.com/yt-dlp/yt-dlp#installing-plugins)
 
+Tested way on Linux is to unpack [release](https://github.com/danilovsergei/yt-dlp-split-and-tag/releases/download/master/yt-dlp-split-and-tag.zip) to /home/$USER/.yt-dlp/plugins/SplitAndTag/
+
 ## Usage examples
 ### Only print information how chapter title will be split
 Use these options to quickly find out correct regex for the chapter title format.\
