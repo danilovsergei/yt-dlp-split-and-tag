@@ -14,12 +14,12 @@ Requires yt-dlp `2023.01.01` or above.
 You can install this package with pip:
 
 ```
-python3 -m pip install -U https://github.com/danilovsergei/yt-dlp-split-and-tag/releases/download/master/yt-dlp-split-and-tag.zip
+python3 -m pip install -U https://github.com/danilovsergei/yt-dlp-split-and-tag/releases/latest/download/yt-dlp-split-and-tag-latest.zip
 ```
 
 Or either copy to the relevant directory manually by following [yt-dlp installing plugins](https://github.com/yt-dlp/yt-dlp#installing-plugins)
 
-Tested way on Linux is to unpack [release](https://github.com/danilovsergei/yt-dlp-split-and-tag/releases/download/master/yt-dlp-split-and-tag.zip) to /home/$USER/.yt-dlp/plugins/SplitAndTag/
+Tested way on Linux is to unpack latest [release](https://github.com/danilovsergei/yt-dlp-split-and-tag/releases/latest/download/yt-dlp-split-and-tag-latest.zip) to /home/$USER/.yt-dlp/plugins/SplitAndTag/
 
 ## Usage examples
 ### Only print information how chapter title will be split
